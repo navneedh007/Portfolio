@@ -1,0 +1,72 @@
+/*App.css*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Background styling */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #282c36; /* Change this to your desired background color */
+  z-index: -1;
+}
+
+/* Navigation styling */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Body and overall app styling */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.app {
+  transition: background-color 0.5s ease-in-out;
+}
+
+/* Light mode styles */
+.app.light-mode {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Dark mode styles */
+.app.dark-mode {
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+/* Gradient background */
+.background {
+  background: linear-gradient(to right, #0d1117, #0d1122); /* Adjust gradient colors as needed */
+}

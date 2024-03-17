@@ -1,0 +1,18 @@
+/* Works.css */
+
+.works-container {
+  height:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+  margin-bottom: 80px;
+}
+
+.works-container .carousel-container {
+  width: 100%;
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: auto;
+}
+
+/* Add any other styles as needed */

@@ -1,0 +1,60 @@
+/* DarkModeToggle.css */
+.dark-mode-toggle {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .switch-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .react-switch-bg {
+    border-radius: 50%;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Updated transition */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ecf0f1; /* Default border color */
+  }
+  
+  .react-switch-bg .react-switch-handle {
+    border-radius: 20%;
+    transition: border-color 0.3s ease, z-index 0.3s ease; /* Updated transition */
+    border: 2px solid #ecf0f1; /* Default border color */
+    z-index: 2; /* Ensure the handler stays above the sun/moon icon */
+  }
+  
+  .react-switch-bg div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Adjust border colors based on dark or light mode */
+  .react-switch-bg.dark-mode {
+    border-color: #fff; /* Dark mode border color */
+  }
+  
+  .react-switch-bg.dark-mode .react-switch-handle {
+    border-color: #fff; /* Dark mode border color */
+  }
+  
+  .react-switch-bg.light-mode {
+    border-color: #000; /* Light mode border color */
+  }
+  
+  .react-switch-bg.light-mode .react-switch-handle {
+    border-color: #000; /* Light mode border color */
+  }
+  
+  .react-switch-bg:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  

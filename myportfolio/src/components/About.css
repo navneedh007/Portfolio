@@ -1,0 +1,48 @@
+/* About.css */
+.about-container {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.hi-im {
+  font-size: 3em;
+  font-weight: bold;
+  color: #366697;
+  display: inline;
+  margin-right: 10px;
+  margin-top: 20px; /* Adjust the margin-top as needed */
+}
+
+.roles {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 20px;
+  display: inline;
+  margin-left: 20px;
+}
+
+.typing-text {
+  font-size: 2em;
+  color: #fff;
+  display: inline;
+  margin-left: 20px;
+  margin-top: 10px; /* Adjust the margin-top as needed */
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+.description {
+  font-size: 1.2em;
+  color: #ccc;
+  max-width: 600px;
+  margin-top: 20px;
+}

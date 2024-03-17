@@ -1,0 +1,31 @@
+/* Tech.css */
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px;
+  margin-bottom: 80px;
+}
+
+.tech-card {
+  width: 150px;
+  text-align: center;
+  margin: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tech-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.tech-name {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tech-card:hover {
+  transform: scale(1.1);
+}
